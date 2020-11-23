@@ -67,51 +67,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "ML/DL",
       fontAwesomeClassname: "fas fa-layer-group"
-    },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
-    // {
-    //   skillName: "JavaScript",
-    //   fontAwesomeClassname: "fab fa-js"
-    // },
-    // {
-    //   skillName: "reactjs",
-    //   fontAwesomeClassname: "fab fa-react"
-    // },
-    // {
-    //   skillName: "nodejs",
-    //   fontAwesomeClassname: "fab fa-node"
-    // },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    }
   ]
 };
 
@@ -120,30 +76,29 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
+    
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Chung-Ang University, Seoul, Korea",
+      logo: require("./assets/images/cau_old_cut.png"),
+      subHeader: "Bachelor of Science in Digital Imaging",
+      duration: "March 2011 - Faburary 2017",
+      desc: "Specialized to image processing and computer vision. Participaed in the research program and published 9 papers",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Metropolia, Helsinki, Finland",
+      logo: require("./assets/images/Metropolia_logo.png"),
+      subHeader: "Student exchange internship at Electria",
+      duration: "June 2015 - Sep 2015",
+      desc: "Hand Gesture recognition using LeapMotion sensor and Processing language for 3D printed robotic hand",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
     }
   ]
 }
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -171,10 +126,10 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Research Engineer",
+      company: "Bepro Europe GmbH",
+      companylogo: require("./assets/images/bepro_logo.png"),
+      date: "September 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -182,18 +137,26 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Engineer",
+      company: "Hyundai MOBIS",
+      companylogo: require("./assets/images/hmobis_logo.png"),
+      date: "January 2017 – September 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Intern",
+      company: "Image Processing & Intelligent Systems Lab.",
+      companylogo: require("./assets/images/ipis_logo_.png"),
+      date: "Sep 2015 - January 2017",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     },
   ]
 };
@@ -212,11 +175,11 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "INDEPENDENT PROJECTS THAT I PART IN, THEY MAYBE NOT RELATED MY MAJOR TECH",  
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/loleu.png"),
+      link: "https://loleu.github.io/"
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
@@ -301,19 +264,29 @@ const talkSection = {
 
 // Podcast Section
 
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Jahwan-Oh-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+// };
+
+// Podcast Section
+
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Jahwan-Oh-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["https://anchor.fm/codevcast/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv"]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "jahwanoh70@gmail.com"
+  number: "",
+  email_address: "jahwanoh@gmail.com"
 };
 
 //Twitter Section
