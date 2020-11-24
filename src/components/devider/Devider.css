@@ -1,0 +1,18 @@
+.devider-text {
+  text-align: center;
+  color: #868e96 !important;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.devider-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.devider-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
