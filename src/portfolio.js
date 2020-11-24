@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jahwan Oh",
-  title: "Hi all, I'm Jahwan",
-  subTitle: emoji("A Creative Computer Vision Research Engineer 🚀 Believing that seeing is the one of the most human principle, my passion lies in Vision and Intelligent system. "),
+  title: "Nice to meet you. I'm Jahwan",
+  subTitle: emoji("A Creative Computer Vision Research Engineer 🚀🚀 Vision is one of the most useful human sensors that allow us to understand the world. my passion lies in Vision and Intelligent system. "),
   // like to realize an idea into real uses rather only to keep it as a concept. Having experiences of building image processing and computer vision based applications with C++ / Python / Processing on various platforms and environments such as Google Cloud Platform, Nvidia Jetson, Windows, Linuxs and etc. I like having a quick test of my ideas using cool open libraries and frameworks. as a self-motivated learner, I enjoy to reach to interesting fields that I'm not familiar with
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -96,9 +96,9 @@ const educationInfo = {
       logo: require("./assets/images/Metropolia_logo.png"),
       subHeader: "Student exchange internship at Electria",
       duration: "June 2015 - Sep 2015",
-      desc: "Hand Gesture recognition using LeapMotion sensor and Processing language for 3D printed robotic hand",
+      desc: "3D printed robotic hand project",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "A robotic hand control system based on a hand gesture recognition using LeapMotion sensor and Processing language",
       ]
     }
   ]
@@ -134,10 +134,12 @@ const workExperiences = {
       company: "Bepro Europe GmbH",
       companylogo: require("./assets/images/bepro_logo.png"),
       date: "September 2018 – Present",
-      desc: "-",
+      desc: "AI Team",
       descBullets: [
-        "-",
-        "-"
+        "Video quality enhancement",
+        "Video stitching and its assessment logic",
+        "Automatic virtual camera movement",
+        "Sport event recognition"
       ]
     },
     {
@@ -145,21 +147,23 @@ const workExperiences = {
       company: "Hyundai MOBIS",
       companylogo: require("./assets/images/hmobis_logo.png"),
       date: "January 2017 – September 2018",
-      desc: "-",
+      desc: "Research Dep.",
       descBullets: [
-        "-",
-        "-"
+        "Vision based speaker grill opening rate calculation",
+        "ANC(Active Noise Control)",
+        "VESS(Virtual Engine Sound System)"
       ]
     },
     {
       role: "Research Intern",
-      company: "Image Processing & Intelligent Systems Lab.",
+      company: "IPIS",
       companylogo: require("./assets/images/ipis_logo_.png"),
       date: "Sep 2015 - January 2017",
-      desc: "-",
+      desc: "Image Processing & Intelligent Systems Lab",
       descBullets: [
-        "-",
-        "-"
+        "Content-Aware Image Processing",
+        "Computer Vision Technology in Various Conditions",
+        "Participated in conferences and exhibitions publishing papers advised by Dr. Joonki Paik"
       ]
     },
   ]
@@ -178,36 +182,31 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "INDEPENDENT PROJECTS THAT I PART IN, THEY MAYBE NOT RELATED MY MAJOR TECH",  
+  title: "Projects 🔥",
+  subtitle: "",  
   projects: [
     {
       image: require("./assets/images/loleu.png"),
       link: "https://loleu.github.io/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
     }
   ]
 };
+
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "",
 
   achievementsCards: [
     {
-      title: "-",
-      subtitle: "--",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Best Paper",
+      subtitle: "Hyundai Motor Group, 2018",
+      image: require("./assets/images/paper.svg"),
       footerLink: [
-        { name: "Certification", url: "-" },
-        { name: "Award Letter", url: "-" },
-        { name: "Google Code-in Blog", url: "-" }
+        { name: "Confidencial", url: "-" }
       ]
     },
     {
@@ -220,7 +219,7 @@ const achievementSection = {
     {
       title: "Army Commandation Medel",
       subtitle: "LIEUTENANT GENERAL, USA. COMMANDING GENERAL",
-      image: require("./assets/images/arcom.jpg"),
+      image: require("./assets/images/medal.svg"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B8naWt1Y1OUZRHdnWVlwWUtnMjA/view?usp=sharing" }
       ]
@@ -233,7 +232,7 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "I'm proud of my team. please find our research here in the product!",
+  subtitle: "",
 
   blogs: [
     {
