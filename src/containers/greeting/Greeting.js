@@ -35,9 +35,10 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 <Button
-                  text="See my resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
+                  text="Check my projects"
+                  // newTab={true}
+                  href="#experience"
+                  // href={greeting.resumeLink}
                 />
               </div>
             </div>

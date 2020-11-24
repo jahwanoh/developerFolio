@@ -8,7 +8,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jahwan Oh",
   title: "Hi all, I'm Jahwan",
-  subTitle: emoji("A Creative Computer Vision Research Engineer 🚀 Believing that seeing is one of the most human principle, my passion lies in Vision and Intelligent system. "),
+  subTitle: emoji("A Creative Computer Vision Research Engineer 🚀 Believing that seeing is the one of the most human principle, my passion lies in Vision and Intelligent system. "),
   // like to realize an idea into real uses rather only to keep it as a concept. Having experiences of building image processing and computer vision based applications with C++ / Python / Processing on various platforms and environments such as Google Cloud Platform, Nvidia Jetson, Windows, Linuxs and etc. I like having a quick test of my ideas using cool open libraries and frameworks. as a self-motivated learner, I enjoy to reach to interesting fields that I'm not familiar with
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -18,13 +18,13 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/jahwanoh",
-  linkedin: "https://www.linkedin.com/in/jahwanoh/",
+  linkedin: "https://www.linkedin.com/in/jahwan-oh-5b21aa115/",
   gmail: "jahwanoh@gmail.com",
-  facebook: "https://www.facebook.com/Jahwan.Oh7",
-  instagram: "",
-  soundcloud: "",
-  youtube: "",
-  medium: "https://medium.com/@jahwanoh"
+  // facebook: "https://www.facebook.com/Jahwan.Oh",
+  instagram: "https://www.instagram.com/letterhwan/",
+  soundcloud: "https://soundcloud.com/jahwan-oh/tom-misch-movie-jahwan",
+  // youtube: "",
+  // medium: "https://medium.com/@jahwanoh"
   
   // Instagram, Twitter or more social media are also supported in the links!
 };
@@ -36,8 +36,8 @@ const skillsSection = {
   subTitle: "IMAGINE AND THEN MAKE IT HAPPEN",
   skills: [
     emoji("⚡ Develop image processing and computer vision applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Tools: opencv, cuda, ffmpeg, gstreamer, tensorflow, pytorch, darknet"),
+    emoji("⚡ Hardware: Nvidia Jetson, V4L2 MIPI, Arduino")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -84,7 +84,11 @@ const educationInfo = {
       duration: "March 2011 - Faburary 2017",
       desc: "Specialized to image processing and computer vision. Participaed in the research program and published 9 papers",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "'Real-Time Multiple Soccer Player Tracking Using Kalman Filter and K-Means in UAV Environment', Thesis(2017)",
+        "'UAV Video Understanding and Tracking Method for Automatic Sports Broadcast Application', I410-ECN-0101-2017-004-002138571(2017)",
+        "'Real-Time Multiple Object Tracking Using Gaussian Mixture Model and Kalman Filter in UAV Environment', I410-ECN-0101-2017-569-001938993(2016)",
+        "'Content-Aware Rectification of Images Containing Artificial Structures', I410-ECN-0101-2017-569-000884054(2016)",
+        "'Hand Gesture Recognition Using Multiple Cameras for Remote Control System (2012)'"
       ]
     },
     {
@@ -130,10 +134,10 @@ const workExperiences = {
       company: "Bepro Europe GmbH",
       companylogo: require("./assets/images/bepro_logo.png"),
       date: "September 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "-",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "-",
+        "-"
       ]
     },
     {
@@ -141,10 +145,10 @@ const workExperiences = {
       company: "Hyundai MOBIS",
       companylogo: require("./assets/images/hmobis_logo.png"),
       date: "January 2017 – September 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "-",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "-",
+        "-"
       ]
     },
     {
@@ -152,10 +156,10 @@ const workExperiences = {
       company: "Image Processing & Intelligent Systems Lab.",
       companylogo: require("./assets/images/ipis_logo_.png"),
       date: "Sep 2015 - January 2017",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "-",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "-",
+        "-"
       ]
     },
   ]
@@ -197,29 +201,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "-",
+      subtitle: "--",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "-" },
+        { name: "Award Letter", url: "-" },
+        { name: "Google Code-in Blog", url: "-" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Patent",
+      subtitle: "Auto Fader Balance Control of Vehicle Audio System using Sound Recognition, Oct 2017.",
+      image: require("./assets/images/patent.svg"),
+      footerLink: [{ name: "Patent", url: "https://drive.google.com/file/d/18rrYcFaZwEJ5xmqj99us9X1mGruywWIw/view?usp=sharing" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Army Commandation Medel",
+      subtitle: "LIEUTENANT GENERAL, USA. COMMANDING GENERAL",
+      image: require("./assets/images/arcom.jpg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Certification", url: "https://drive.google.com/file/d/0B8naWt1Y1OUZRHdnWVlwWUtnMjA/view?usp=sharing" }
       ]
     }
   ]
@@ -230,18 +233,28 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "I'm proud of my team. please find our research here in the product!",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/@bepro11/new-interactive-video-features-powered-by-tracking-data-9a6e3d9d6fd5",
+      title: "New Interactive Video Features Powered by Tracking Data",
+      description: "... better understand and communicate what happened in a match. These features are available for any match where we have collected tracking data."
     },
     {
-      url: "https://medium.com/@jahwanoh/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@bepro11/what-is-the-bepro-scouting-feed-93bb52576464",
+      title: "What is the Bepro Scouting Feed?",
+      description: "... scouting feed captures all 22 players in one shot, giving viewers eyes to the whole show."
+    },
+    {
+      url: "https://medium.com/@bepro11/behind-the-scenes-of-bepros-analysis-process-16eb669f924",
+      title: "Behind the Scenes of Bepro’s Analysis Process",
+      description: "... scouting feed captures all 22 players in one shot, giving viewers eyes to the whole show."
+    },
+    {
+      url: "https://medium.com/@bepro11/big-important-video-quality-improvements-ready-for-footballs-return-4dc6a69f39cc",
+      title: "Big Important Video Quality Improvements Ready For Football’s Return!",
+      description: " It allows us to reduce workload and produce the best possible turnaround time ..."
     }
   ]
 };

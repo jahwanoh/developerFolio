@@ -10,6 +10,7 @@ import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
+import Devider from "../components/devider/Devider";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
@@ -51,6 +52,7 @@ export default class Main extends Component {
           <Projects />
           {/* <StartupProject /> */}
           <Achievement />
+          {/* <Devider /> */}
           <Blogs />
           {/* <Talks /> */}
           {/* <Twitter /> */}
