@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jahwan Oh",
-  title: "Nice to meet you. I'm Jahwan",
-  subTitle: emoji("A Creative Computer Vision Research Engineer 🚀🚀 Vision is one of the most useful human sensors that allow us to understand the world. my passion lies in Vision and Intelligent system. "),
+  title: "Nice to meet you.",
+  subTitle: emoji("I'm Jahwan Oh and I'm a computer vision engineer. Vision is one of the most useful human sensors that allow us to understand the world. My passion lies in computer vision and intelligent system. 🚀"),
   // like to realize an idea into real uses rather only to keep it as a concept. Having experiences of building image processing and computer vision based applications with C++ / Python / Processing on various platforms and environments such as Google Cloud Platform, Nvidia Jetson, Windows, Linuxs and etc. I like having a quick test of my ideas using cool open libraries and frameworks. as a self-motivated learner, I enjoy to reach to interesting fields that I'm not familiar with
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -33,7 +33,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "IMAGINE AND THEN MAKE IT HAPPEN",
+  subTitle: "MAKE IT HAPPEN",
   skills: [
     emoji("⚡ Develop image processing and computer vision applications"),
     emoji("⚡ Tools: opencv, cuda, ffmpeg, gstreamer, tensorflow, pytorch, darknet"),
@@ -84,15 +84,21 @@ const educationInfo = {
       duration: "March 2011 - Faburary 2017",
       desc: "Specialized to image processing and computer vision. Participaed in the research program and published 9 papers",
       descBullets: [
-        "'Real-Time Multiple Soccer Player Tracking Using Kalman Filter and K-Means in UAV Environment', Thesis(2017)",
-        "'UAV Video Understanding and Tracking Method for Automatic Sports Broadcast Application', I410-ECN-0101-2017-004-002138571(2017)",
-        "'Real-Time Multiple Object Tracking Using Gaussian Mixture Model and Kalman Filter in UAV Environment', I410-ECN-0101-2017-569-001938993(2016)",
-        "'Content-Aware Rectification of Images Containing Artificial Structures', I410-ECN-0101-2017-569-000884054(2016)",
-        "'Hand Gesture Recognition Using Multiple Cameras for Remote Control System (2012)'"
-      ]
+          "Content-Aware Image processing",
+          "Multiple Object Tracking",
+          "Gesture Recognition",
+          "Media Art"
+        ]
+      // descBullets: [
+      //   "'Real-Time Multiple Soccer Player Tracking Using Kalman Filter and K-Means in UAV Environment', Thesis(2017)",
+      //   "'UAV Video Understanding and Tracking Method for Automatic Sports Broadcast Application', I410-ECN-0101-2017-004-002138571(2017)",
+      //   "'Real-Time Multiple Object Tracking Using Gaussian Mixture Model and Kalman Filter in UAV Environment', I410-ECN-0101-2017-569-001938993(2016)",
+      //   "'Content-Aware Rectification of Images Containing Artificial Structures', I410-ECN-0101-2017-569-000884054(2016)",
+      //   "'Hand Gesture Recognition Using Multiple Cameras for Remote Control System (2012)'"
+      // ]
     },
     {
-      schoolName: "Metropolia, Helsinki, Finland",
+      schoolName: "Metropolia University of Applied Sciences, Helsinki, Finland",
       logo: require("./assets/images/Metropolia_logo.png"),
       subHeader: "Student exchange internship at Electria",
       duration: "June 2015 - Sep 2015",
@@ -203,22 +209,22 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Best Paper",
-      subtitle: "Hyundai Motor Group, 2018",
+      subtitle: "'Vision Based Speaker Grill Opening Rate Calculation', Hyundai Motor Group, 2018",
       image: require("./assets/images/paper.svg"),
       footerLink: [
-        { name: "Confidencial", url: "-" }
+        { name: "not available", url: "-" }
       ]
     },
     {
       title: "Patent",
-      subtitle: "Auto Fader Balance Control of Vehicle Audio System using Sound Recognition, Oct 2017.",
+      subtitle: "'Auto Fader Balance Control of Vehicle Audio System using Sound Recognition', Korea, 2017.",
       image: require("./assets/images/patent.svg"),
       footerLink: [{ name: "Patent", url: "https://drive.google.com/file/d/18rrYcFaZwEJ5xmqj99us9X1mGruywWIw/view?usp=sharing" }]
     },
 
     {
       title: "Army Commandation Medel",
-      subtitle: "LIEUTENANT GENERAL, USA. COMMANDING GENERAL",
+      subtitle: "LIEUTENANT GENERAL, USA. COMMANDING GENERAL, 2015",
       image: require("./assets/images/medal.svg"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B8naWt1Y1OUZRHdnWVlwWUtnMjA/view?usp=sharing" }
@@ -296,7 +302,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "",
   number: "",
   email_address: "jahwanoh@gmail.com"
 };
