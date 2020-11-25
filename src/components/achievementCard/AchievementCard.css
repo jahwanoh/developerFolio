@@ -22,6 +22,16 @@
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
 }
+
+.certificate-card-dark {
+  background-color: #171c28;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 10px 30px -15px;
+  /* box-shadow: 1px 0px 10px #ffffff; */
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 0px solid rgba(211, 211, 211, 0.397);
+}
+
 .certificate-detail-div {
   text-align: center;
 }

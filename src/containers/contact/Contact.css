@@ -44,7 +44,9 @@
 }
 
 .contact-image-div > img {
-  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
   height: auto;
   margin-left: 1.5rem;
   margin-top: -4rem;

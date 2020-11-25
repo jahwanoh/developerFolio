@@ -46,9 +46,9 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             <img
-              alt="Saad Working"
+              alt="let's play jam"
               src={require(`../../assets/images/${
-                isDark ? "contactMailDark.svg" : "contactMail.webp"
+                isDark ? "mailing-mail-svgrepo-com.svg" : "mailing-mail-svgrepo-com.svg"
               }`)}
             ></img>
           </div>

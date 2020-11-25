@@ -9,9 +9,10 @@
 .experience-card-dark {
     position: relative;
     background-color: #171c28;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 10px 30px -15px;
+    /* box-shadow: 1px 0px 10px #ffffff; */
     border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
+    border: 0px solid rgba(211, 211, 211, 0.397);
 }
 
 .experience-card:hover {

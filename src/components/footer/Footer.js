@@ -12,10 +12,11 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+        {"Inspired by "}
           <a href="https://github.com/saadpasta/developerFolio">
           developerFolio         
           </a>
-          {" Theme by Saad Pasta"}
+          {" Theme"}
         </p>
       </div>
     </Fade>

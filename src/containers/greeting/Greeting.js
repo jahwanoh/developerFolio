@@ -31,7 +31,7 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <SocialMedia />
+              {/* <SocialMedia /> */}
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 <Button
@@ -45,8 +45,8 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             <img
-              alt="sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
+              alt="pioneer"
+              src={require("../../assets/images/rocket1.svg")}
             ></img>
           </div>
         </div>

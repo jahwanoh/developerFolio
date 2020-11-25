@@ -8,7 +8,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jahwan Oh",
   title: "Nice to meet you.",
-  subTitle: emoji("I'm Jahwan Oh and I'm a computer vision engineer. Vision is one of the most useful human sensors that allow us to understand the world. My passion lies in computer vision and intelligent system. 🚀"),
+  subTitle: emoji("I'm Jahwan Oh and I'm a computer vision engineer. Vision is one of the most useful human sensors that allow us to understand the world. My passion lies in computer vision and intelligent system."),
   // like to realize an idea into real uses rather only to keep it as a concept. Having experiences of building image processing and computer vision based applications with C++ / Python / Processing on various platforms and environments such as Google Cloud Platform, Nvidia Jetson, Windows, Linuxs and etc. I like having a quick test of my ideas using cool open libraries and frameworks. as a self-motivated learner, I enjoy to reach to interesting fields that I'm not familiar with
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "jahwanoh@gmail.com",
   // facebook: "https://www.facebook.com/Jahwan.Oh",
   instagram: "https://www.instagram.com/letterhwan/",
-  soundcloud: "https://soundcloud.com/jahwan-oh/tom-misch-movie-jahwan",
+  soundcloud: "https://soundcloud.com/jahwan-oh/cover-original",
   // youtube: "",
   // medium: "https://medium.com/@jahwanoh"
   
