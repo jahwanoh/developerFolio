@@ -192,7 +192,7 @@ const bigProjects = {
   subtitle: "",  
   projects: [
     {
-      image: require("./assets/images/loleu.png"),
+      image: require("./assets/images/paper.svg"),
       link: "https://loleu.github.io/"
     }
   ]
