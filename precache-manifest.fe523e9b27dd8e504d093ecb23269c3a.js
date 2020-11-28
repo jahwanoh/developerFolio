@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5c454cd79a4c3b55c7d7b817207fe9a",
+    "revision": "188d9c72f35c186b2f2fc598d8aaa42a",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "0cbae5b3ed830e324d34",
+    "revision": "c8a9f742fe51543ee4a9",
     "url": "/developerFolio/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "7d1e0f72bee497e993ab",
+    "revision": "4e2a9480d196a8381628",
     "url": "/developerFolio/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "70dbe980bb60f66d1e24",
+    "revision": "0cefe72818fdfd2d3c1d",
     "url": "/developerFolio/static/css/main.3bb7ed38.chunk.css"
   },
   {
-    "revision": "da0f5465febf9d166fd6",
-    "url": "/developerFolio/static/js/2.2157b925.chunk.js"
+    "revision": "ddc7e4cac619c3bccaf1",
+    "url": "/developerFolio/static/js/2.e8873de4.chunk.js"
   },
   {
-    "revision": "0cbae5b3ed830e324d34",
-    "url": "/developerFolio/static/js/3.db01839e.chunk.js"
+    "revision": "c8a9f742fe51543ee4a9",
+    "url": "/developerFolio/static/js/3.3f6b0bf2.chunk.js"
   },
   {
-    "revision": "7d1e0f72bee497e993ab",
-    "url": "/developerFolio/static/js/4.c1cf4374.chunk.js"
+    "revision": "4e2a9480d196a8381628",
+    "url": "/developerFolio/static/js/4.75c229be.chunk.js"
   },
   {
-    "revision": "70dbe980bb60f66d1e24",
-    "url": "/developerFolio/static/js/main.068b3466.chunk.js"
+    "revision": "0cefe72818fdfd2d3c1d",
+    "url": "/developerFolio/static/js/main.58bbea7a.chunk.js"
   },
   {
-    "revision": "e6651ee7b5811c589e94",
-    "url": "/developerFolio/static/js/runtime-main.504bdebf.js"
+    "revision": "2fb6ed38d63c6641d015",
+    "url": "/developerFolio/static/js/runtime-main.0f89f51a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -112,8 +112,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/developerFolio/static/media/medal.61d3631f.svg"
   },
   {
+    "revision": "3b6c179de5cb54e7b94dc77f0e8e933a",
+    "url": "/developerFolio/static/media/mipi.3b6c179d.jpg"
+  },
+  {
     "revision": "b1a39044e071e0e5c7ed1d0abb35f97f",
     "url": "/developerFolio/static/media/mobis_logo.b1a39044.png"
+  },
+  {
+    "revision": "6a33aa52376dda58fec917203596c4b1",
+    "url": "/developerFolio/static/media/nvidia_digits.6a33aa52.jpg"
   },
   {
     "revision": "df81b6bb7b072457fe8abc215c449670",
@@ -126,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aacd5352ee3c76ed671bec4a96db0611",
     "url": "/developerFolio/static/media/robot-svgrepo-com.aacd5352.svg"
+  },
+  {
+    "revision": "5dc9695b805cb2b49b1d223d280e717a",
+    "url": "/developerFolio/static/media/robotichand.5dc9695b.jpg"
   },
   {
     "revision": "8fb6d7c4bf2b6e5ca8c11dff31c47809",
