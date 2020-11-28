@@ -8,7 +8,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jahwan Oh",
   title: "Nice to meet you.",
-  subTitle: emoji("I'm Jahwan Oh and I'm a computer vision engineer. Vision is one of the most useful human sensors that allow us to understand the world. My passion lies in computer vision and intelligent system."),
+  subTitle: emoji("I'm Jahwan Oh and I'm a computer vision engineer. Vision is one of the most useful human sensors to understand the world. My passion lies in the computer vision and the intelligent system."),
   // like to realize an idea into real uses rather only to keep it as a concept. Having experiences of building image processing and computer vision based applications with C++ / Python / Processing on various platforms and environments such as Google Cloud Platform, Nvidia Jetson, Windows, Linuxs and etc. I like having a quick test of my ideas using cool open libraries and frameworks. as a self-motivated learner, I enjoy to reach to interesting fields that I'm not familiar with
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -33,7 +33,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "MAKE IT HAPPEN",
+  subTitle: "",
   skills: [
     emoji("⚡ Develop image processing and computer vision applications"),
     emoji("⚡ Tools: opencv, cuda, ffmpeg, gstreamer, tensorflow, pytorch, darknet"),
@@ -82,7 +82,7 @@ const educationInfo = {
       logo: require("./assets/images/cau_old_cut.png"),
       subHeader: "Bachelor of Science in Digital Imaging",
       duration: "March 2011 - Faburary 2017",
-      desc: "Specialized to image processing and computer vision. Participaed in the research program and published 9 papers",
+      desc: "Specialized to image processing and computer vision. Participaed in the research program published several papers",
       descBullets: [
           "Content-Aware Image processing",
           "Multiple Object Tracking",
@@ -133,6 +133,7 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
+  subTitle: "work and related keywords",
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
@@ -212,7 +213,7 @@ const achievementSection = {
       subtitle: "'Vision Based Speaker Grill Opening Rate Calculation', Hyundai Motor Group, 2018",
       image: require("./assets/images/paper.svg"),
       footerLink: [
-        { name: "not available", url: "-" }
+        // { name: "not available", url: "-" }
       ]
     },
     {
